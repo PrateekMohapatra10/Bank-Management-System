@@ -1,0 +1,19 @@
+Bank Management System 
+=========================
+
+SQL Query
+=========
+
+create database bankmanagementsystem;
+
+use bankmanagementsystem;
+
+create table signup (Formno varchar(50), Name varchar(50), Father_name varchar(50), DOB varchar(50), Gender varchar(50), Email varchar(50), Marital_Status varchar(50), Address varchar(50), City varchar(50), State varchar(50), Pincode varchar(50));
+
+create table signuptwo (Formno varchar(50), Religion varchar(50),Category varchar(50),Income varchar(50),Education varchar(50),Voter_ID varchar(50),Occupation varchar(50),Pan_Number varchar(50),Aadhar_Number varchar(50),Senior_Citizen varchar(50),Existing_Account varchar(50));
+
+create table signupthree (Formno varchar(50), Account_Type varchar(50), Card_Number varchar(50),Pin_Number varchar(50),Facility varchar(50));
+
+create table login (Formno varchar(50), Card_Number varchar(50), Pin_Number varchar(50));
+
+create table bank (Pin varchar(50),Date varchar(50),Type varchar(50),Amount varchar(50));
